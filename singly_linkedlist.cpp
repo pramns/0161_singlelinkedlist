@@ -2,6 +2,16 @@
 using namespace std;
 
 class node{
-  int noMhs;
-  node *next;
+  public:
+    int noMhs;
+    node *next;
+};
+
+class linkedlist{
+  node *start;
+
+public:
+  linkedlist(){
+    start = NULL;
+  }
 };
