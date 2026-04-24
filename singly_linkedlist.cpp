@@ -72,6 +72,19 @@ public:
     delete current;
     return true;
   }
-
+   void traverse(){
+    if (listempty()){
+      cout << "\nList Kosong\n";
+    }
+    else{
+      cout << "\nData didalam list adalah: \n";
+      node *currentnode = start;
+      while (currentnode != NULL){
+        cout << currentnode->noMhs << endl;
+        currentnode - currentnode->next;
+      }
+      cout << endl;
+    }
+  }
 
 };
