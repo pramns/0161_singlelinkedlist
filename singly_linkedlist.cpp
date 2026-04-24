@@ -45,5 +45,8 @@ public:
     nodebaru->next = current;
     previous->next = nodebaru;
   }
+  bool listempty(){
+    return (start==NULL);
+  }
 
 };
